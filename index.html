@@ -1,85 +1,92 @@
+<!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <style>
-        h1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        audio {
-            height: 40px;
-        }
-        td {
-            padding-bottom: 15px;
+        /* body {
+            font-family: 'Times New Roman', Times, serif var(--bs-font-family-base);
+
+        } */
+        .heb-text {
+            font-size: xx-large;
+            font-family: serif;
         }
     </style>
 </head>
 <body>
-    <h1>Te'amim and melodies</h1>
-   <p>
-        <table>
-            <tr>
-                <td>
-                    <span dir="rtl" style="font-size:xx-large">
-                    מֵרְכָ֥א טִפְּחָ֖א מֵרְכָ֥א סִילֽוּק:
-                    </span>
-                </td>
-                <td>
-                    <audio controls>
-                        <source src="merekha-tippecha-merekha-siluk.mp3" type="audio/mp3"/>
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <span dir="rtl" style="font-size:xx-large">
+    <div class="container text-center">
+        <h1>Te'amim and melodies</h1>
+        <div class="row">
+            <div class="col text-end">
+                <span dir="rtl" class="heb-text">
+                מֵרְכָ֥א טִפְּחָ֖א מֵרְכָ֥א סִילֽוּק:
+                </span>
+            </div>
+            <div class="col text-start">
+                <audio controls>
+                    <source src="merekha-tippecha-merekha-siluk.mp3" type="audio/mp3"/>
+                </audio>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col text-end">
+                    <span dir="rtl" class="heb-text">
                     מֵרְכָ֥א טִפְּחָ֖א סִילֽוּק:
                     </span>
-                </td>
-                <td>
+                </div>
+                <div class="col text-start">
                     <audio controls>
                         <source src="merekha-tippecha-siluk.mp3" type="audio/mp3"/>
                     </audio>
-                </td>
-            </tr>
+                </div>
+            </div>
 
-            <tr>
-                <td>
-                    <span dir="rtl" style="font-size:xx-large">
+            <div class="row">
+                <div class="col text-end">
+                    <span dir="rtl" class="heb-text">
                         מֵרְכָ֥א תְּבִ֛יר
                     </span>
-                </td>
-                <td>
+                </div>
+                <div class="col text-start">
                     <audio controls>
                         <source src="merekha-tevir.mp3" type="audio/mp3"/>
                     </audio>
-                </td>
-            </tr>
+                </div>
+            </div>
 
 
-            <tr>
-                <td>
-                    <span dir="rtl" style="font-size:xx-large">
+            <div class="row">
+                <div class="col text-end">
+                    <span dir="rtl" class="heb-text">
                         תְּבִ֛יר
                     </span>
-                </td>
-                <td>
+                </div>
+                <div class="col text-start">
                     <audio controls>
                         <source src="tevir.mp3" type="audio/mp3"/>
                     </audio>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <span dir="rtl" style="font-size:xx-large">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-end">
+                    <span dir="rtl" class="heb-text">
                         דַּרְגָ֧א תְּבִ֛יר
                     </span>
-                </td>
-                <td>
+                </div>
+                <div class="col text-start">
                     <audio controls>
                         <source src="darga-tevir.mp3" type="audio/mp3"/>
                     </audio>
-                </td>
-            </tr>
-        </table>
-   </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
