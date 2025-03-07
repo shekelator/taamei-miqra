@@ -18,7 +18,7 @@ function App() {
         <Phrase hebrew="זָקֵ֕ף" audioFile="zakef-gadol.mp3" />
         <Phrase hebrew="יְ֚תִיב מֻנַ֣ח זָקֵ֔ף" audioFile="yetiv-munach-zakef.mp3" />
         <Phrase hebrew="מֻנַ֣ח מַהְפַּ֤ךְ פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="munach-mahpakh-pashta-munach-zakef.mp3" />
-        <Phrase hebrew="מֻנַ֣ח תְּלִשָה֩ קַדְמָ֨ה מַהְפַּ֤ךְ פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="munach-telisha-kadma-mahpakh-pashta-zakef.mp3" />
+        <Phrase hebrew="מֻנַ֣ח תְּלִשָה֩ קַדְמָ֨ה מַהְפַּ֤ךְ פַּשְטָא֙ זָקֵ֔ף" audioFile="munach-telisha-kadma-mahpakh-pashta-zakef.mp3" />
         <Phrase hebrew="מֵרְכָ֥א פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="merekha-pashta-munach-zakef.mp3" />
         <Phrase hebrew="מְתִיגָ֨ה־זָקֵ֔ף" audioFile="metigah-zakef.mp3" />
         <Phrase hebrew="מֻנַ֣ח סֶגוֹל֒" audioFile="munach-segol.mp3" />
