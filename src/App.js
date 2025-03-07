@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Te'amim and melodies</h1>
+        <h1>Te'amim and melodies for Torah cantillation</h1>
         <div className="container text-center">
         <Phrase hebrew="מֵרְכָ֥א טִפְּחָ֖א מֵרְכָ֥א סִילֽוּק:" audioFile="merekha-tippecha-merekha-siluk.mp3" />
         <Phrase hebrew="מֵרְכָ֥א טִפְּחָ֖א סִילֽוּק:" audioFile="merekha-tippecha-siluk.mp3" />
@@ -18,7 +18,7 @@ function App() {
         <Phrase hebrew="זָקֵ֕ף" audioFile="zakef-gadol.mp3" />
         <Phrase hebrew="יְ֚תִיב מֻנַ֣ח זָקֵ֔ף" audioFile="yetiv-munach-zakef.mp3" />
         <Phrase hebrew="מֻנַ֣ח מַהְפַּ֤ךְ פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="munach-mahpakh-pashta-munach-zakef.mp3" />
-        <Phrase hebrew="מֻנַ֣ח תְּלִשָה֩ קַדְמָ֨ה מַהְפַּ֤ךְ פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="munach-telisha-kadma-mahpakh-pashta-munach-zakef.mp3" />
+        <Phrase hebrew="מֻנַ֣ח תְּלִשָה֩ קַדְמָ֨ה מַהְפַּ֤ךְ פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="munach-telisha-kadma-mahpakh-pashta-zakef.mp3" />
         <Phrase hebrew="מֵרְכָ֥א פַּשְטָא֙ מֻנַ֣ח זָקֵ֔ף" audioFile="merekha-pashta-munach-zakef.mp3" />
         <Phrase hebrew="מְתִיגָ֨ה־זָקֵ֔ף" audioFile="metigah-zakef.mp3" />
         <Phrase hebrew="מֻנַ֣ח סֶגוֹל֒" audioFile="munach-segol.mp3" />
