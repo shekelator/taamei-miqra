@@ -8,7 +8,7 @@ function Phrase(props) {
             </div>
             <div className="col text-start">
                 <audio controls>
-                    <source src={ "https://dnix.nyc3.cdn.digitaloceanspaces.com/recordings/" + audioFile } type="audio/mp3"/>
+                    <source src={ "https://res.dnix.us/recordings/trop/" + audioFile } type="audio/mp3"/>
                 </audio>
             </div>
         </div>
