@@ -88,18 +88,39 @@ const Binder = () => {
     "84 , High Holy Day Cantillation.mp3"
   ];
 
+  function extractNumber(str) {
+    const match = str.match(/^\d+/);
+    return match ? parseInt(match[0], 10) : null;
+  }
+
+  const cleanFileName = (fileName) => {
+    // Add your cleanup logic here. For example, remove special characters and trim spaces.
+    let cleaned = fileName.replace(/\.mp3$/, '');
+    cleaned = cleaned.replace(/^[0-9, ]*/, '').trim()
+    return cleaned;
+  };
+
   return (
     <div className="container">
-      <h1>Audio Clips from <i>The Art of Torah Cantillation</i></h1>
-      <div className="list-group">
-        {files.map((file, index) => (
-          <div key={index} className="list-group-item d-flex justify-content-between align-items-center">
-            <span>{file}</span>
-            <audio controls>
-              <source src={`https://res.dnix.us/recordings/trop/binder/${file}`} type="audio/mp3" />
-            </audio>
-          </div>
-        ))}
+      <h2>Audio Clips from <i>The Art of Torah Cantillation</i> (Portnoy, Wolff)</h2>
+      <div className="container text-center">
+        {files.map((file, index) => 
+        {
+            const cleanedFilename = cleanFileName(file);
+            const number = extractNumber(file);
+            return (
+                <div key={index} className="row">
+                    <div className="col text-end text-label">
+                        <span>{number} - {cleanedFilename}</span>
+                    </div>
+                    <div className="col text-start">
+                        <audio controls>
+                            <source src={`https://res.dnix.us/recordings/trop/binder/${file}`} type="audio/mp3" />
+                        </audio>
+                    </div>
+                </div>
+            )
+        })}
       </div>
     </div>
   );

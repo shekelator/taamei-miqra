@@ -24,8 +24,22 @@
   color: white;
 }
 
+.App-header h1 {
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
+  font-size: calc(5px + 1.5vmin);
+}
+
+.App .text-label {
+  font-size: calc(5px + 1.25vmin);
+}
+
+.App h2 {
+  font-size: calc(5px + 1.75vmin);
+  margin: 2em;
 }
 
 @keyframes App-logo-spin {

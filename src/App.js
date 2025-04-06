@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <h1>Te'amim and melodies for Torah cantillation</h1>
           <nav>
-            <Link to="/" className="App-link">Home</Link> |{' '}
+            <Link to="/" className="App-link">Jacobson</Link><span class="App-link"> |{' '}</span>
             <Link to="/binder" className="App-link">Binder</Link>
           </nav>
           <Routes>
@@ -18,6 +18,7 @@ function App() {
               path="/"
               element={
                 <div className="container text-center">
+                  <h2>Audio Clips from <i>Chanting the Hebrew Bible</i> (Jacobson)</h2>
                   <Phrase hebrew="מֵרְכָ֥א טִפְּחָ֖א מֵרְכָ֥א סִילֽוּק:" audioFile="merekha-tippecha-merekha-siluk.mp3" />
                   <Phrase hebrew="מֵרְכָ֥א טִפְּחָ֖א סִילֽוּק:" audioFile="merekha-tippecha-siluk.mp3" />
                   <Phrase hebrew="מֵרְכָ֥א תְּבִ֛יר" audioFile="merekha-tevir.mp3" />
