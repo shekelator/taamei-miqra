@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <h1>Te'amim and melodies for Torah cantillation</h1>
           <nav>
-            <Link to="/" className="App-link">Jacobson</Link><span class="App-link"> |{' '}</span>
+            <Link to="/" className="App-link">Jacobson</Link><span className="App-link"> |{' '}</span>
             <Link to="/binder" className="App-link">Binder</Link>
           </nav>
           <Routes>
