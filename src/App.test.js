@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Phrase from './Phrase';
+import Phrase from './Phrase.jsx';
 
 describe('Phrase Component', () => {
   test('renders Hebrew text', () => {
