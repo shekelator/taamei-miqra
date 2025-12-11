@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Phrase from './Phrase';
-import Binder from './Binder';
+import Phrase from './Phrase.jsx';
+import Binder from './Binder.jsx';
 
 function App() {
   return (
