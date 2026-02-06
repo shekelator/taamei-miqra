@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Phrase from './Phrase.jsx';
 import Binder from './Binder.jsx';
+import Haftarah from './Haftarah.jsx';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           <h1>Te'amim and melodies for Torah cantillation</h1>
           <nav>
             <Link to="/" className="App-link">Jacobson</Link><span class="App-link"> |{' '}</span>
-            <Link to="/binder" className="App-link">Binder</Link>
+            <Link to="/binder" className="App-link">Binder</Link><span class="App-link"> |{' '}</span>
+            <Link to="/haftarah" className="App-link">Haftarah</Link>
           </nav>
           <Routes>
             <Route
@@ -41,6 +43,7 @@ function App() {
               }
             />
             <Route path="/binder" element={<Binder />} />
+            <Route path="/haftarah" element={<Haftarah />} />
           </Routes>
         </header>
       </div>
