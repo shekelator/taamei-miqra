@@ -15,8 +15,8 @@
     "web-vitals": "^5.1.0"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
+    "dev": "vite --host",
+    "start": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
